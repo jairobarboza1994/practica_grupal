@@ -10,6 +10,9 @@ h1{
      font-family: @font-face {
         font-family: ;
         src: url();
+     } {
+        font-family: ;
+        src: url();
      };
      font-size:500%;
     
@@ -39,4 +42,11 @@ strong{
 }
 div {
     background-image: url("/jap.png");
+    font-family: myFirstFont;
 }
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(SquarePeg-Regular.ttf);
+  }
+  
